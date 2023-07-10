@@ -32,6 +32,16 @@
         .n{
             font-size: 20px;
         }
+        .inline li{
+            display: inline-block;
+        }
+        .inline2{
+            display: inline-block;
+        }
+        .inline2 li{
+            display: inline-block;
+        }
+
     </style>
 </head>
 <body>
@@ -49,21 +59,25 @@
     <br>
     <section>
         <nav class="d">
-            <a class="uppercase m" href="home.html" target="profile">home</a>
-            <a class="uppercase m" href="techStack.html" target="profile">techstack</a>
-            <a class="uppercase m" href="project.html" target="profile">project</a>
-            <a class="uppercase m" href="education.html" target="profile">education</a>
-            <a class="uppercase m" href="personalDetail.html" target="profile">about me</a>
+            <ul class="inline">
+                <li><a class="uppercase m" href="home.html" target="profile">home</a></li>
+                <li> <a class="uppercase m" href="techStack.html" target="profile">techstack</a></li>
+                <li><a class="uppercase m" href="project.html" target="profile">project</a></li>
+                <li><a class="uppercase m" href="education.html" target="profile">education</a></li>
+                <li><a class="uppercase m" href="personalDetail.html" target="profile">about me</a></li>
+            </ul>
         </nav>
         <div class="d">
             <iframe height="400" width="100%" src="home.html" frameborder="none" name="profile"></iframe>
         </div>
         <footer class="d">
             <span class="bold">Follow Me On :</span>
-            <a href="https://linkedin.com" target="_blank"><i class="color fa-brands fa-2x fa-linkedin"></i></a>
-            <a href="https://github.com" target="_blank"><i class="color fa-brands fa-2x fa-github"></i></a>
-            <a href="https://facebook.com" target="_blank"><i class="color fa-brands fa-2x fa-facebook"></i></a>
-            <a href="https://instagram.com" target="_blank"><i class="color fa-brands fa-2x fa-instagram"></i></a>
+            <ul class="inline2">
+                <li><a href="https://linkedin.com" target="_blank"><i class="color fa-brands fa-2x fa-linkedin"></i></a></li>
+                <li><a href="https://github.com" target="_blank"><i class="color fa-brands fa-2x fa-github"></i></a></li>
+                <li><a href="https://facebook.com" target="_blank"><i class="color fa-brands fa-2x fa-facebook"></i></a></li>
+                <li><a href="https://instagram.com" target="_blank"><i class="color fa-brands fa-2x fa-instagram"></i></a></li>
+            </ul>
             <p> Copyright &copy; 2023 Zoom Video Communications, Inc. All rights reserved. </p>
         </footer>
     </section>
