@@ -27,7 +27,21 @@
         }
         .d{
             text-align: center;
+            padding: 20px;
         }
+        .n{
+            font-size: 20px;
+        }
+        .inline li{
+            display: inline-block;
+        }
+        .inline2{
+            display: inline-block;
+        }
+        .inline2 li{
+            display: inline-block;
+        }
+
     </style>
 </head>
 <body>
@@ -36,30 +50,34 @@
     </div>
     <header>
         <div class="d">
-            <i class="color fa-solid fa-2x fa-user"></i><span class="m">Pushpak Metkari</span>
-            <i class="color fa-solid fa-2x fa-phone"></i><span class="m">8208688932</span>
-            <i class="color fa-solid fa-2x fa-envelope"></i><span class="m">beingpushpak@gmail.com</span>
+            <i class="color fa-solid fa-2x fa-user"></i><span class="m n">Pushpak Metkari</span>
+            <i class="color fa-solid fa-2x fa-phone"></i><span class="m n">8208688932</span>
+            <i class="color fa-solid fa-2x fa-envelope"></i><span class="m n">beingpushpak@gmail.com</span>
             <button><a href="cv/little family (3).pdf" target="profile"><i class="color fa-solid fa-2x fa-download"></i>Download CV</a></button>
         </div> 
     </header>   
     <br>
     <section>
         <nav class="d">
-            <a class="uppercase m" href="home.html" target="profile">home</a>
-            <a class="uppercase m" href="techStack.html" target="profile">techstack</a>
-            <a class="uppercase m" href="project.html" target="profile">project</a>
-            <a class="uppercase m" href="education.html" target="profile">education</a>
-            <a class="uppercase m" href="personalDetail.html" target="profile">about me</a>
+            <ul class="inline">
+                <li><a class="uppercase m" href="home.html" target="profile">home</a></li>
+                <li> <a class="uppercase m" href="techStack.html" target="profile">techstack</a></li>
+                <li><a class="uppercase m" href="project.html" target="profile">project</a></li>
+                <li><a class="uppercase m" href="education.html" target="profile">education</a></li>
+                <li><a class="uppercase m" href="personalDetail.html" target="profile">about me</a></li>
+            </ul>
         </nav>
         <div class="d">
             <iframe height="400" width="100%" src="home.html" frameborder="none" name="profile"></iframe>
         </div>
         <footer class="d">
             <span class="bold">Follow Me On :</span>
-            <a href="https://linkedin.com" target="_blank"><i class="color fa-brands fa-2x fa-linkedin"></i></a>
-            <a href="https://github.com" target="_blank"><i class="color fa-brands fa-2x fa-github"></i></a>
-            <a href="https://facebook.com" target="_blank"><i class="color fa-brands fa-2x fa-facebook"></i></a>
-            <a href="https://instagram.com" target="_blank"><i class="color fa-brands fa-2x fa-instagram"></i></a>
+            <ul class="inline2">
+                <li><a href="https://linkedin.com" target="_blank"><i class="color fa-brands fa-2x fa-linkedin"></i></a></li>
+                <li><a href="https://github.com" target="_blank"><i class="color fa-brands fa-2x fa-github"></i></a></li>
+                <li><a href="https://facebook.com" target="_blank"><i class="color fa-brands fa-2x fa-facebook"></i></a></li>
+                <li><a href="https://instagram.com" target="_blank"><i class="color fa-brands fa-2x fa-instagram"></i></a></li>
+            </ul>
             <p> Copyright &copy; 2023 Zoom Video Communications, Inc. All rights reserved. </p>
         </footer>
     </section>
