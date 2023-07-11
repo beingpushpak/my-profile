@@ -6,6 +6,12 @@
     <link rel="icon" type="image/x-icon" href="images/IMG-20180903-WA0015-01-01.jpeg">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sofia&display=swap" rel="stylesheet">
     <style>
         header{
             color: rgb(7, 7, 4);
@@ -21,6 +27,7 @@
         }
         .bold{
             font-weight: bolder;
+            font-family: 'Poppins', sans-serif
         }
         .m{
             margin-right: 25px;
@@ -41,19 +48,24 @@
         .inline2 li{
             display: inline-block;
         }
-
+        .popin,a{
+            font-family: 'Poppins', sans-serif;
+        }
+        .sofia{
+            font-family: 'Sofia', cursive;
+        }
     </style>
 </head>
 <body>
      <div>
-        <h2 class="d bold">My Profile</h2>
+        <h2 class="d bold popin">My Profile</h2>
     </div>
     <header>
         <div class="d">
-            <i class="color fa-solid fa-2x fa-user"></i><span class="m n">Pushpak Metkari</span>
-            <i class="color fa-solid fa-2x fa-phone"></i><span class="m n">8208688932</span>
-            <i class="color fa-solid fa-2x fa-envelope"></i><span class="m n">beingpushpak@gmail.com</span>
-            <button><a href="cv/little family (3).pdf" target="profile"><i class="color fa-solid fa-2x fa-download"></i>Download CV</a></button>
+            <i class="color fa-solid fa-2x fa-user"></i><span class="m popin n">Pushpak Metkari</span>
+            <i class="color fa-solid fa-2x fa-phone"></i><span class="m ponin n">8208688932</span>
+            <i class="color fa-solid fa-2x fa-envelope"></i><span class="m popin n">beingpushpak@gmail.com</span>
+            <button><a href="cv/little family (3).pdf" target="profile"><i class="color fa-solid fa-2x fa-download"></i><span class="popin">Download CV</span></a></button>
         </div> 
     </header>   
     <br>
@@ -78,7 +90,7 @@
                 <li><a href="https://facebook.com" target="_blank"><i class="color fa-brands fa-2x fa-facebook"></i></a></li>
                 <li><a href="https://instagram.com" target="_blank"><i class="color fa-brands fa-2x fa-instagram"></i></a></li>
             </ul>
-            <p> Copyright &copy; 2023 Zoom Video Communications, Inc. All rights reserved. </p>
+            <p class="sofia"> Copyright &copy; 2023 Zoom Video Communications, Inc. All rights reserved. </p>
         </footer>
     </section>
 </body>
