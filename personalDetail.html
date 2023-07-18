@@ -12,6 +12,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>personalDetail</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Signika+Negative&display=swap" rel="stylesheet">
 </head>
 <style>
     table,td,th,tr{
@@ -26,15 +32,30 @@
     .a{
         margin-left: 29px;
     }
+    h3,strong{
+        font-family: 'Poppins', sans-serif;
+    }
+    span,li,td,ul li{
+        font-family: 'Signika Negative', sans-serif;
+    }
+    th{
+        font-family: 'Anton', sans-serif;
+    }
+    table tr:hover{
+        background-color: aqua;
+    }
+    table tbody tr:nth-child(odd){
+        background-color: gray;
+    }
 </style>
 <body>
     <h3>My Personal Details</h3>
     <img src="images/IMG-20180903-WA0015-01-01.jpeg" alt="profile image" height="200px">
     <br>
-    <p><strong>Name:</strong>Pushpak Metkari</p>
+    <p><strong>Name:</strong><span>Pushpak Metkari</span></p>
     <h3>Contact Details</h3>
     <p class="a"><strong>Mobile :</strong>8208688932</p>
-    <p class="a"><strong>E-Mail :</strong> beingpushpak@gmail.com</p>
+    <p class="a"><strong>E-Mail :</strong> <span>beingpushpak@gmail.com</span></p>
     <hr>
     <h3>My Technology Stack</h3>
     <ul>
